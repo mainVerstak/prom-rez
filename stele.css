@@ -63,8 +63,11 @@
 	height: 36px;
 }
 
-.modal-body .form-group:nth-child(1) {
-	/*background: #000;*/
+.modal-body .form-group + .btn-group label {
+	font-size: 14px;
+	padding: 4px 8px;
+	height: auto;
+
 }
 
 
