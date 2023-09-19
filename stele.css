@@ -5,7 +5,7 @@
 }
 .modal-body .form-group.categoryButtons {
 	width: 49%;
-	height: 64px;
+	height: 68.84px;
 
 	display: inline-flex !important;
 	justify-content: flex-end;
@@ -14,7 +14,6 @@
 .modal-body .form-group.offerTypeButtons button,
 .modal-body .form-group.categoryButtons button,
 .modal-body .form-group .btn-group,
-.modal-body .form-group .btn-default,
 .modal-body .btn-group {
 	width: 100%;
 	display: block;
@@ -22,8 +21,8 @@
 
 .modal-body .form-group {
 	width: 100%;
-	margin-top: 6px;
-	margin-bottom: 6px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 .modal-body .additional_category_search_params_container_action + .form-group {
 	margin-top: 12px;
@@ -54,16 +53,57 @@
 /*=====================*/
 
 .modal-body .btn-group .btn {
-	width: 100%;
+	/*width: 100%;*/
 	text-align: left;
 }
+.modal-body .btn,
+.modal-body .input-group input {
+	font-size: 16px;
+	padding: 6px 12px;
+	height: 36px;
+}
+
+.modal-body .form-group:nth-child(1) {
+	background: #000;
+}
+
+
+
 .modal-body .btn-group .btn.btn-xs {
-	margin-bottom: 4px;
+	margin-bottom: 6px;
 }
 .modal-body .btn-group .btn.btn-xs:last-child {
 	margin-bottom: 0px;
 }
+.modal-body .form-group:nth-child(4),
+.modal-body .form-group:nth-child(5) {
+	max-width: 48.5%;
+}
+.modal-body .form-group:nth-child(4) {
+	margin-right: 1%;
+}
 
-.description-group {
-	
+.modal-body .fas.fa-tag {
+	display: none;
+}
+.modal-body .description-group {
+	display: block;
+	width: 100%;
+}
+
+
+.modal-body .form-group > label {
+	display: block;
+	font-size: 16px;
+}
+
+.modal-body .get-search-locations-action,
+.modal-body .description-group .form-control {
+	display: block;
+	width: 100%;
+
+	font-size: 16px;
+	padding: 6px 12px;
+	height: 36px;
+
 }
