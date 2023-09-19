@@ -1,10 +1,11 @@
 
 
 #searchFormModal .modal-body .form-group.offerTypeButtons  {
-	width: 49%;
+	width: 48.5%;
+	margin-right: 1%;
 }
 #searchFormModal .modal-body .form-group.categoryButtons {
-	width: 49%;
+	width: 48.5%;
 	height: 68.84px;
 
 	display: inline-flex !important;
@@ -78,13 +79,23 @@
 #searchFormModal .modal-body .btn-group .btn.btn-xs:last-child {
 	margin-bottom: 0px;
 }
+#searchFormModal .modal-body .form-group:nth-child(3),
 #searchFormModal .modal-body .form-group:nth-child(4),
-#searchFormModal .modal-body .form-group:nth-child(5) {
+#searchFormModal .modal-body .form-group:nth-child(5),
+#searchFormModal .modal-body .form-group:nth-child(6) {
 	max-width: 48.5%;
 }
-#searchFormModal .modal-body .form-group:nth-child(4) {
+#searchFormModal .modal-body .form-group:nth-child(3),
+#searchFormModal .modal-body .form-group:nth-child(5) {
 	margin-right: 1%;
 }
+#searchFormModal .modal-body .form-group:nth-child(3) .btn,
+#searchFormModal .modal-body .form-group:nth-child(4) .btn {
+	width: 100%;
+
+}
+
+
 
 #searchFormModal .modal-body .fas.fa-tag {
 	display: none;
