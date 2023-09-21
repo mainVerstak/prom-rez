@@ -1,134 +1,206 @@
 
-
-#searchFormModal .modal-body .form-group.offerTypeButtons  {
-	width: 48.5%;
-	margin-right: 1%;
-	max-width: 48.5% !important;
-}
-#searchFormModal .modal-body .form-group.categoryButtons {
-	width: 48.5%;
-	height: 68.84px;
-	margin-right: 0 !important;
-
-	display: inline-flex !important;
-	justify-content: flex-end;
-	flex-direction: column;
-}
-#searchFormModal .modal-body .form-group.offerTypeButtons button,
-#searchFormModal .modal-body .form-group.categoryButtons button,
-#searchFormModal .modal-body .form-group .btn-group,
-#searchFormModal .modal-body .btn-group {
-	width: 100%;
-	display: block;
-}
-
-#searchFormModal .modal-body .form-group {
-	width: 100%;
-	margin-top: 8px;
-	margin-bottom: 8px;
-}
-#searchFormModal .modal-body .additional_category_search_params_container_action + .form-group {
-	margin-top: 12px;
-}
-#searchFormModal .modal-body .form-group.offerTypeButtons label {
-	display: block;
-}
-/*.modal-body .form-group label*/
-/*=====================*/
-
-#searchFormModal .modal-body .form-group .input-group {
-	font-size: 0;
-	display: flex;
-	width: 100%;
-}
-#searchFormModal .modal-body .form-group .input-group .form-control {
-	flex: 1 1 auto;
-}
-#searchFormModal .modal-body .input-group-addon {
-	height: auto;
-	flex: 0 0 34px;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-/*=====================*/
-
-#searchFormModal .modal-body .btn-group .btn {
-	/*width: 100%;*/
-	text-align: left;
-}
-#searchFormModal .modal-body .btn,
-#searchFormModal .modal-body .input-group input {
-	font-size: 16px;
-	padding: 6px 12px;
-	height: 36px;
-}
-
-#searchFormModal .modal-body .form-group + .btn-group label {
-	font-size: 14px;
-	padding: 4px 8px;
-	height: auto;
-
-}
+@media screen and (max-width: 900px) {
+	#searchFormModal .form {
+		font-size: 0;
+	}
 
 
+	#searchFormModal .modal-body .form-group.offerTypeButtons  {
+		width: 49%;
+		margin-right: 2%;
+		max-width: 49% !important;
+	}
+	#searchFormModal .modal-body .form-group.categoryButtons {
+		width: 49%;
+		height: 68.84px;
+		margin-right: 0 !important;
 
-#searchFormModal .modal-body .btn-group .btn.btn-xs {
-	margin-bottom: 6px;
-}
-#searchFormModal .modal-body .btn-group .btn.btn-xs:last-child {
-	margin-bottom: 0px;
-}
-#searchFormModal .modal-body .form-group:nth-child(3),
-#searchFormModal .modal-body .form-group:nth-child(4),
-#searchFormModal .modal-body .form-group:nth-child(5),
-#searchFormModal .modal-body .form-group:nth-child(6) {
-	max-width: 48.5%;
-}
-#searchFormModal .modal-body .form-group:nth-child(3),
-#searchFormModal .modal-body .form-group:nth-child(5) {
-	margin-right: 1%;
-}
-#searchFormModal .modal-body .form-group:nth-child(3) .btn,
-#searchFormModal .modal-body .form-group:nth-child(4) .btn {
-	width: 100%;
+		display: inline-flex !important;
+		justify-content: flex-end;
+		flex-direction: column;
+	}
 
-}
+	#searchFormModal .modal-body .form-group.offerTypeButtons ,
+	#searchFormModal .modal-body .form-group.categoryButtons {
+		text-align: left;
+	}
+	#searchFormModal .modal-body .form-group.offerTypeButtons button,
+	#searchFormModal .modal-body .form-group.categoryButtons button,
+	#searchFormModal .modal-body .form-group .btn-group,
+	#searchFormModal .modal-body .btn-group {
+		width: 100%;
+		/*display: block;
+		text-align: left;*/
+		/*display: flex;
+		align-items: center;*/
+	}
+
+	#searchFormModal .additional_search_params_container_action {
+		font-size: 0;
+		display: flex;
+		justify-content: space-between;
+		/*flex-direction: column;*/
+		flex-wrap: wrap;
+	}
+	#searchFormModal .additional_search_params_container_action .form-group {
+		flex: 0 0 49%;
+		max-width: 49%;
+		margin-right: 0;
+	}
+	#searchFormModal .additional_search_params_container_action .form-group.renovationButtons,
+	#searchFormModal .additional_search_params_container_action .form-group.buildingTypeButtons,
+	#searchFormModal .additional_search_params_container_action .form-group:first-child,
+	#searchFormModal .additional_search_params_container_action .form-group:nth-child(2)  {
+		order: -1;
+	}
+	#searchFormModal .additional_search_params_container_action .form-group:first-child,
+	#searchFormModal .additional_search_params_container_action .form-group:nth-child(2) {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+
+	#searchFormModal .additional_search_params_container_action .form-group.renovationButtons .btn,
+	#searchFormModal .additional_search_params_container_action .form-group.buildingTypeButtons .btn,
+	#searchFormModal .form-group.offerTypeButtons .btn,
+	#searchFormModal .form-group.categoryButtons .btn  {
+		font-size: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+	#searchFormModal .btn-group {
+		max-width: 100%;
+		overflow: auto;
+		display: flex;
+	}
+	#searchFormModal .additional_search_params_container_action .form-group.renovationButtons .btnText,
+	#searchFormModal .additional_search_params_container_action .form-group.buildingTypeButtons .btnText,
+	#searchFormModal .form-group.offerTypeButtons .btnText,
+	#searchFormModal .form-group.categoryButtons .btnText  {
+		margin-right: 10px;
+		overflow: hidden;
+		font-size: 16px;
+	}
 
 
 
-#searchFormModal .modal-body .fas.fa-tag {
-	display: none;
-}
-#searchFormModal .modal-body .description-group {
-	display: block;
-	width: 100%;
-}
+	#searchFormModal .modal-body .btnText {
+		overflow: hidden;
+		display: inline-block;
+	}
+
+	#searchFormModal .modal-body .form-group {
+		width: 100%;
+		margin-top: 8px;
+		/*margin-bottom: 8px;*/
+	}
+	#searchFormModal .modal-body .additional_category_search_params_container_action + .form-group {
+		margin-top: 12px;
+	}
+	#searchFormModal .modal-body .form-group.offerTypeButtons label {
+		display: block;
+	}
+	/*.modal-body .form-group label*/
+	/*=====================*/
+
+	#searchFormModal .modal-body .form-group .input-group {
+		font-size: 0;
+		display: flex;
+		width: 100%;
+	}
+	#searchFormModal .modal-body .form-group .input-group .form-control {
+		flex: 1 1 auto;
+	}
+	#searchFormModal .modal-body .input-group-addon {
+		height: auto;
+		flex: 0 0 34px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/*=====================*/
+
+	#searchFormModal .modal-body .btn-group .btn {
+		/*width: 100%;*/
+		text-align: left;
+	}
+	#searchFormModal .modal-body .btn,
+	#searchFormModal .modal-body .input-group input {
+		font-size: 16px;
+		padding: 6px 12px;
+		height: 36px;
+	}
+
+	#searchFormModal .modal-body .form-group + .btn-group label {
+		font-size: 14px;
+		padding: 4px 8px;
+		height: auto;
+
+	}
 
 
-#searchFormModal .modal-body .form-group > label {
-	display: block;
-	font-size: 16px;
-}
 
-#searchFormModal .modal-body .get-search-locations-action,
-#searchFormModal .modal-body .description-group .form-control {
-	display: block;
-	width: 100%;
+	#searchFormModal .modal-body .btn-group .btn.btn-xs {
+		margin-bottom: 6px;
+	}
+	#searchFormModal .modal-body .btn-group .btn.btn-xs:last-child {
+		margin-bottom: 0px;
+	}
+	/*#searchFormModal .modal-body .form-group:nth-child(3),
+	#searchFormModal .modal-body .form-group:nth-child(4),
+	#searchFormModal .modal-body .form-group:nth-child(5),
+	#searchFormModal .modal-body .form-group:nth-child(6) {
+		max-width: 48.5%;
+		text-align: left;
+	}
+	#searchFormModal .modal-body .form-group:nth-child(3),
+	#searchFormModal .modal-body .form-group:nth-child(5) {
+		margin-right: 1%;
+	}
+	#searchFormModal .modal-body .form-group:nth-child(3) .btn,
+	#searchFormModal .modal-body .form-group:nth-child(4) .btn {
+		width: 100%;
+		text-align: left;
 
-	font-size: 16px;
-	padding: 6px 12px;
-	height: 36px;
-
-}
+	}*/
 
 
-#searchFormModal .offerTypeButtons>.btn-group, 
-#searchFormModal .categoryButtons>.btn-group, 
-#searchFormModal .buildingTypeButtons>.btn-group, 
-#searchFormModal .renovationButtons>.btn-group, 
-#searchFormModal .propertyTypeButtons>.btn-group {
-  display: none !important;
+
+	#searchFormModal .modal-body .fas.fa-tag {
+		display: none;
+	}
+	#searchFormModal .modal-body .description-group {
+		display: block;
+		width: 100%;
+	}
+
+
+	#searchFormModal .modal-body .form-group > label {
+		display: block;
+		font-size: 16px;
+	}
+
+	#searchFormModal .modal-body .get-search-locations-action,
+	#searchFormModal .modal-body .description-group .form-control {
+		display: block;
+		width: 100%;
+
+		font-size: 16px;
+		padding: 6px 12px;
+		height: 36px;
+
+	}
+
+
+	#searchFormModal .offerTypeButtons>.btn-group, 
+	#searchFormModal .categoryButtons>.btn-group, 
+	#searchFormModal .buildingTypeButtons>.btn-group, 
+	#searchFormModal .renovationButtons>.btn-group, 
+	#searchFormModal .propertyTypeButtons>.btn-group {
+	  display: none !important;
+	}
 }
