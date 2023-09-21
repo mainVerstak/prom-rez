@@ -3,8 +3,6 @@
 	#searchFormModal .form {
 		font-size: 0;
 	}
-
-
 	#searchFormModal .modal-body .form-group.offerTypeButtons  {
 		width: 49%;
 		margin-right: 2%;
@@ -14,7 +12,6 @@
 		width: 49%;
 		height: 68.84px;
 		margin-right: 0 !important;
-
 		display: inline-flex !important;
 		justify-content: flex-end;
 		flex-direction: column;
@@ -29,17 +26,12 @@
 	#searchFormModal .modal-body .form-group .btn-group,
 	#searchFormModal .modal-body .btn-group {
 		width: 100%;
-		/*display: block;
-		text-align: left;*/
-		/*display: flex;
-		align-items: center;*/
 	}
 
 	#searchFormModal .additional_search_params_container_action {
 		font-size: 0;
 		display: flex;
 		justify-content: space-between;
-		/*flex-direction: column;*/
 		flex-wrap: wrap;
 	}
 	#searchFormModal .additional_search_params_container_action .form-group {
@@ -99,7 +91,6 @@
 	#searchFormModal .modal-body .form-group {
 		width: 100%;
 		margin-top: 8px;
-		/*margin-bottom: 8px;*/
 	}
 	#searchFormModal .modal-body .additional_category_search_params_container_action + .form-group {
 		margin-top: 12px;
@@ -107,7 +98,6 @@
 	#searchFormModal .modal-body .form-group.offerTypeButtons label {
 		display: block;
 	}
-	/*.modal-body .form-group label*/
 	/*=====================*/
 
 	#searchFormModal .modal-body .form-group .input-group {
@@ -130,7 +120,6 @@
 	/*=====================*/
 
 	#searchFormModal .modal-body .btn-group .btn {
-		/*width: 100%;*/
 		text-align: left;
 	}
 	#searchFormModal .modal-body .btn,
@@ -155,24 +144,6 @@
 	#searchFormModal .modal-body .btn-group .btn.btn-xs:last-child {
 		margin-bottom: 0px;
 	}
-	/*#searchFormModal .modal-body .form-group:nth-child(3),
-	#searchFormModal .modal-body .form-group:nth-child(4),
-	#searchFormModal .modal-body .form-group:nth-child(5),
-	#searchFormModal .modal-body .form-group:nth-child(6) {
-		max-width: 48.5%;
-		text-align: left;
-	}
-	#searchFormModal .modal-body .form-group:nth-child(3),
-	#searchFormModal .modal-body .form-group:nth-child(5) {
-		margin-right: 1%;
-	}
-	#searchFormModal .modal-body .form-group:nth-child(3) .btn,
-	#searchFormModal .modal-body .form-group:nth-child(4) .btn {
-		width: 100%;
-		text-align: left;
-
-	}*/
-
 
 
 	#searchFormModal .modal-body .fas.fa-tag {
@@ -197,7 +168,6 @@
 		font-size: 16px;
 		padding: 6px 12px;
 		height: 36px;
-
 	}
 
 
