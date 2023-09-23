@@ -1,0 +1,15 @@
+@media screen and (max-width: 900px) {
+	img {
+		vertical-align: top; }
+	:focus, :active {
+		outline: none; }
+
+	.search_nav_bar {
+		flex: 0 0 40px;
+	}
+
+	.navbar-small .navbar-brand {
+		height: 35px;
+		padding-bottom: 0;
+	}
+}
