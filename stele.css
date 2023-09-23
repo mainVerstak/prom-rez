@@ -186,6 +186,9 @@
 		padding: 6px 12px;
 		height: 36px;
 	}
+	#searchFormModal .modal-body .get-search-locations-action {
+		overflow: hidden;
+	}
 
 
 	#searchFormModal .offerTypeButtons>.btn-group, 
