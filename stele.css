@@ -219,29 +219,15 @@
 }
 
 @media screen and (max-width: 540px) {
-	.additional_search_subcategories_container_action .btn-group {
+	#searchFormModal .additional_search_subcategories_container_action .btn-group {
 		overflow: visible !important;
 		flex-wrap: wrap;
 	}
-	.additional_search_subcategories_container_action .btn-group .btn {
+	#searchFormModal .additional_search_subcategories_container_action .btn-group .btn {
 		margin-right: 6px;
 		border-radius: 3px !important;
 	}
-	.additional_search_subcategories_container_action .btn {
+	#searchFormModal .additional_search_subcategories_container_action .btn {
 
 	}
 }
-
-
-
-/* ======================*/
-
-/*Перед внедрением на страницу нужно удалить эти стили */
-
-.map_container {
-	overflow: hidden;
-	max-width: 100%;
-}
-
-
-/*=======================*/
