@@ -210,7 +210,6 @@
 	#searchFormModal .modal-body .btnText,
 	#searchFormModal .modal-body .title-search-locations-action {
 		line-height: 36px;
-
 	}
 
 	/*===================*/
@@ -228,6 +227,18 @@
 	.additional_search_subcategories_container_action .btn {
 
 	}
-
-
 }
+
+
+
+/* ======================*/
+
+/*Перед внедрением на страницу нужно удалить эти стили */
+
+.map_container {
+	overflow: hidden;
+	max-width: 100%;
+}
+
+
+/*=======================*/
