@@ -1,5 +1,22 @@
 
 @media screen and (max-width: 900px) {
+
+
+	img {
+		vertical-align: top; }
+	:focus, :active {
+		outline: none; }
+
+	.search_nav_bar {
+		flex: 0 0 40px;
+	}
+
+	.navbar-small .navbar-brand {
+		height: 35px;
+		padding-bottom: 0;
+	}
+
+
 	#searchFormModal .form {
 		font-size: 0;
 	}
@@ -178,4 +195,39 @@
 	#searchFormModal .propertyTypeButtons>.btn-group {
 	  display: none !important;
 	}
+
+	#searchFormModal .modal-body .btn {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+	#searchFormModal .modal-body label.btn {
+		display: flex;
+		align-items: center;
+	}
+	#searchFormModal .modal-body label.btn:only-child {
+		display: inline-block;
+	}
+	#searchFormModal .modal-body .btnText,
+	#searchFormModal .modal-body .title-search-locations-action {
+		line-height: 36px;
+
+	}
+
+	/*===================*/
+}
+
+@media screen and (max-width: 540px) {
+	.additional_search_subcategories_container_action .btn-group {
+		overflow: visible !important;
+		flex-wrap: wrap;
+	}
+	.additional_search_subcategories_container_action .btn-group .btn {
+		margin-right: 6px;
+		border-radius: 3px !important;
+	}
+	.additional_search_subcategories_container_action .btn {
+
+	}
+
+
 }
